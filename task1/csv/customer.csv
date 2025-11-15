@@ -1,0 +1,27 @@
+customer_id;first_name;last_name;gender;DOB;job_title;job_industry_category_id;wealth_segment_id;deceased_indicator;owns_car;postcode_id;property_valuation;address
+1;Laraine;Medendorp;F;1953-10-12;Executive Secretary;1;1;N;true;1;10;060 Morning Avenue
+2;Eli;Bockman;M;1980-12-16;Administrative Officer;2;1;N;true;2;10;6 Meadow Vale Court
+3;Arlin;Dearle;M;1954-01-20;Recruiting Manager;3;1;N;true;3;9;0 Holy Cross Court
+4;Talbot;;M;1961-10-03;;4;1;N;false;4;4;17979 Del Mar Point
+5;Sheila-kathryn;Calton;F;1977-05-13;Senior Editor;5;2;N;true;5;9;9 Oakridge Court
+6;Curr;Duckhouse;M;1966-09-16;;6;3;N;true;6;9;4 Delaware Trail
+7;Fina;Merali;F;1976-02-23;;2;2;N;true;7;4;49 Londonderry Lane
+8;Rod;Inder;M;1962-03-30;Media Manager I;5;1;N;false;8;12;97736 7th Trail
+9;Mala;Lind;F;1973-03-10;Business Systems Development Analyst;7;2;N;true;9;8;93405 Ludington Park
+10;Fiorenze;Birdall;F;1988-10-11;Senior Quality Engineer;2;1;N;true;10;4;44339 Golden Leaf Alley
+11;Uriah;Bisatt;M;1954-04-30;;3;1;N;false;11;6;2 Sutherland Street
+12;Sawyere;Flattman;M;1994-07-21;Nuclear Power Engineer;8;1;N;false;12;8;9 Mcbride Trail
+13;Gabriele;falsercross;M;1955-02-15;Developer I;2;3;N;true;13;9;9861 New Castle Avenue
+14;Rayshell;Kitteman;F;1983-03-25;Account Executive;2;2;N;false;14;4;52 Moland Street
+15;Erroll;Radage;M;2000-07-13;Junior Executive;8;1;N;false;15;9;82391 Kensington Lane
+16;Harlin;Parr;M;1977-02-27;Media Manager IV;5;1;N;true;16;12;092 2nd Alley
+17;Heath;Faraday;M;1962-03-19;Sales Associate;5;2;N;true;17;9;59 Spaight Circle
+18;Marjie;Neasham;F;1967-07-06;Professor;5;2;N;false;18;8;032 Bartelt Crossing
+19;Sorcha;Keyson;F;2001-04-15;Geological Engineer;8;3;N;false;7;7;18 Jenna Center
+20;Basile;Firth;M;1980-08-13;Project Manager;8;1;N;false;2;10;3 Cordelia Plaza
+21;Mile;Cammocke;M;1980-09-20;Safety Technician I;8;2;N;true;19;3;28 5th Center
+22;Deeanne;Durtnell;F;1962-12-10;;4;1;N;false;20;5;52 Carey Alley
+23;Olav;Polak;M;1995-02-10;;5;3;N;true;21;7;96 Texas Plaza
+24;Kim;Skpsey;F;1977-12-03;Research Assistant I;7;1;N;true;22;4;48 Eagan Avenue
+25;Geoff;Assaf;M;1976-12-02;Accounting Assistant III;2;1;N;true;23;7;9 Buell Park
+26;Trixi;Ginnelly;F;1978-06-10;Editor;2;1;N;true;24;11;02663 Buell Parkway
