@@ -123,6 +123,33 @@ FROM customer_top_products
 WHERE cnt_products = 2;
 
 
+/* вариант с having*/
+WITH top_products AS (
+    SELECT p.product_id
+    FROM task2.product_cor p
+    WHERE p.product_line = 'Road'
+    ORDER BY p.list_price DESC
+    LIMIT 5
+)
+SELECT
+    c.customer_id,
+    c.first_name,
+    c.last_name
+FROM task2.customer c
+JOIN task2.orders o 
+    ON o.customer_id = c.customer_id
+JOIN task2.order_items oi
+    ON oi.order_id = o.order_id
+JOIN top_products t
+    ON t.product_id = oi.product_id
+WHERE c.job_industry_category = 'IT'
+GROUP BY 
+    c.customer_id,
+    c.first_name,
+    c.last_name
+HAVING COUNT(DISTINCT oi.product_id) = 2
+
+
 /**
  * Задача 8
  * Вывести клиентов (ID, имя, фамилия, сфера деятельности) из сфер IT или Health, которые совершили не менее 
